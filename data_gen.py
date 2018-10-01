@@ -1,6 +1,6 @@
 import os, shutil
 
-def dataset_generation(download_dir,base_dir,number_class,class_names):
+def dataset_generation(download_dir,base_dir,number_of_classes,class_names):
     """
         Collects data from download location, segregates data in different folders
         based on object class.
