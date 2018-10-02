@@ -1,9 +1,10 @@
-import os, shutil
+import os
 
 DOWNLOAD_DIR = '/Users/rajaraju/Downloads/Birds/'
-BASE_DIR = '/Users/rajaraju/Downloads/birds_classification1'
+BASE_DIR = '/Users/rajaraju/Downloads/birds_classes'
 
-def dataset_generation(class_labels):
+
+def data_directory(class_labels):
     """
         Creates the folder structure for Training, Validation and Test data and Class Labels.
 
